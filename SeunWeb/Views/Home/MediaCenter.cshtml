@@ -1,0 +1,308 @@
+﻿
+@{
+    ViewData["Title"] = "MediaCenter";
+}
+
+<div>
+    <!-- Component helper -->
+    <!-- End Component helper -->
+
+    <section id="js-hero" class="hero--tiled">
+        <div class="grid">
+
+            <div class="six--columns--tablet--one--column">
+                <div class="hero--tiled__tile hero--tiled__tile--large">
+                    <div class="tile__overlay" style="z-index:0"></div>
+                    <a href="media-center/2021/jan/bloomberg--bruce-spear-on-pent-up-travel-demand.html">
+                        <img src="~/assets/content/dam/oliver-wyman/v2/banners/Bruce_banner.jpg.imgix.mediaBigTile.jpg" alt="" />
+
+                        <div class="hero--tiled__tile__text">
+                            <span class="tag tag--in-the-news">In the News</span>
+                            <p class="hero__lead">Bloomberg: Bruce Spear on Pent Up Travel Demand</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="three--columns--tablet--six--columns">
+                <div class="hero--tiled__tile ">
+                    <div class="tile__overlay" style="z-index:0"></div>
+                    <a href="media-center/2020/jan/opening-the-c-suite-to-women-oliver-wyman-identifies-four-key-barriers-to-overcome.html">
+                        <img src="~/assets/content/dam/oliver-wyman/v2/banners/WIL_MC_banner.jpg.imgix.mediaSmallTile.jpg" alt="" />
+
+                        <div class="hero--tiled__tile__text">
+                            <span class="tag tag--in-the-news">Press Release</span>
+                            <p class="hero__lead">Opening the C-Suite to Women: Oliver Wyman Identifies Four Key Barriers to Overcome</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hero--tiled__tile ">
+                    <div class="tile__overlay" style="z-index:0"></div>
+                    <a href="media-center/2020/jan/Financial-times-commodity-traders-profit-from-year-of-market-chaos.html">
+                        <img src="~/assets/content/dam/oliver-wyman/v2/banners/FTComm_banner.jpg.imgix.mediaSmallTile.jpg" alt="" />
+
+                        <div class="hero--tiled__tile__text">
+                            <span class="tag tag--in-the-news">In the News</span>
+                            <p class="hero__lead">Financial Times: Commodity Traders Profit From Year Of Market Chaos</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="three--columns--tablet--six--columns">
+                <div class="hero--tiled__tile ">
+                    <div class="tile__overlay" style="z-index:0"></div>
+                    <a href="media-center/2020/dec/wall-street-journal-covids-impact-on-business-travel.html">
+                        <img src="~/assets/content/dam/oliver-wyman/v2/banners/Media_Center3.jpg.imgix.mediaSmallTile.jpg" alt="" />
+
+                        <div class="hero--tiled__tile__text">
+                            <span class="tag tag--in-the-news">In the News</span>
+                            <p class="hero__lead">Wall Street Journal: COVID’s Impact on Business Travel</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hero--tiled__tile ">
+                    <div class="tile__overlay" style="z-index:0"></div>
+                    <a href="media-center/2020/dec/financial-times-helping-employees-recharge.html">
+                        <img src="~/assets/content/dam/oliver-wyman/v2/banners/Media_center1.jpg.imgix.mediaSmallTile.jpg" alt="" />
+
+                        <div class="hero--tiled__tile__text">
+                            <span class="tag tag--in-the-news">In the News</span>
+                            <p class="hero__lead">Financial Times: Helping Employees Recharge</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<div class="main-content" role="main">
+    <div class="container">
+
+
+
+        <div class="media-center-aggregator__intro">
+            <h1 class="media-center-aggregator__intro__title">Welcome to the Media Center</h1>
+            <p>Oliver Wyman reports and authors are often cited by and contributed to leading publications. </p>
+            <p>Here journalists can find contact details for the global media team, read recent press releases and stories about Oliver Wyman and learn more about the firm.</p>
+
+        </div>
+    </div>
+
+
+    <div class="container media-center-social-div">
+        <div class="label-tabs">
+            <input id="mcs-tab1" type="radio" value="mcs-content1" name="tabs" checked />
+            <label for="mcs-tab1">media</label>
+
+            <input id="mcs-tab2" type="radio" value="mcs-content2" name="tabs" />
+            <label for="mcs-tab2">social</label>
+        </div>
+        <section id="mcs-content2">
+            <div class="tagboard-embed" tgb-slug="t/359651" tgb-layout="waterfall" tgb-feed-type="default" tgb-post-count="20" tgb-mobile-count="10" tgb-toolbar="default" tgb-animation-type="default"></div>
+            <script src="~/assets/static.tagboard.com/public/js/embedAdvanced.js"></script>
+        </section>
+        <section id="mcs-content1" style="display: block;">
+
+            <defaultaggregator />
+
+
+
+
+
+
+            <div id="ow-offset" data-offset="0" class="hide"></div>
+            <div id="ow-pageno" data-page-no="0" class="hide"></div>
+            <div id="ow-template" data-template="/apps/oliverwymanv2/templates/mediaCenter" class="hide"></div>
+
+            <div class="filter--media-center">
+                <span>Filter by:</span>
+                <a class="media-filter-all selected" data-value="ALL" href="#">All</a>
+                <a class="media-filter-thoughtleadership" data-value="thoughtleadership" href="#">Authored by OW</a>
+                <a class="media-filter-news" data-value="news" href="#">In the News</a>
+                <a class="media-filter-press" data-value="press" href="#">Press Releases</a>
+                <a class="media-filter-social" data-value="owSocialFilter" href="#">Social</a>
+            </div>
+            <div class="filter--media-center filter--authored-ow" style="display: none">
+                <a class="media-filter-authored-ow-tag selected" data-value="" href="#">All</a>
+                <a class="media-filter-authored-ow-tag" data-value="ow:publications/mit-sloan" href="#">MIT Sloan</a>
+                <a class="media-filter-authored-ow-tag" data-value="ow:publications/harvard-business-review" href="#">Harvard Business Review</a>
+                <a class="media-filter-authored-ow-tag" data-value="ow:publications/world-economic-forum" href="#">World Economic Forum</a>
+                <a class="media-filter-authored-ow-tag" data-value="ow:publications/forbes" href="#">Forbes</a>
+
+            </div>
+            <section id="ow-aggregation-list" class="media-center-aggregator site-section">
+
+                <div class="container">
+
+                    <div class="pagination pagination--bordered">
+                        <div class="pagination__archive-links">
+                            <ul>
+                                <li class="active"><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2021</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2020</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2019</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2018</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2017</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2016</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2015</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2014</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2013</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2012</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2011</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2010</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2009</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2008</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2007</a></li>
+                            </ul>
+                        </div>
+                        <div class="pagination__inner">
+                            <a class="btn-prev hide" href="#" onclick="PreviousLoadMore(event, 16, '')">Previous</a>
+                            <ul class="pagination__top">
+
+                                <li class="active"><a class="page" href="#" onclick="PageNumberLoadMore(event, this, 16, '')">1</a></li>
+
+                            </ul>
+                            <a class="btn-next hide" href="#" onclick="NextLoadMore(event, 16, '')">Next</a>
+                        </div>
+                    </div>
+
+                    <div class="media-center-aggregator__content">
+                        <ul class="grid media-center-aggregator__list js-stacked-list">
+
+                            <li class="three--columns js-stacked-item">
+                                <a href="media-center/2020/jan/Financial-times-commodity-traders-profit-from-year-of-market-chaos.html" class="media-center-aggregator__item">
+                                    <img src="~/assets/content/dam/oliver-wyman/v2/banners/FTComm_banner.jpg.imgix.mediaSmallTile.jpg" alt="" />
+                                    <span class="media-center-aggregator__item__tag tag--in-the-news">In the News</span>
+                                    <h3 class="media-center-aggregator__title">Financial Times: Commodity Traders Profit From Year Of Market Chaos</h3>
+                                    <span class="media-center-aggregator__item__date">Jan 12, 2021</span>
+                                </a>
+                            </li>
+
+
+                            <li class="three--columns js-stacked-item">
+                                <a href="media-center/2020/jan/opening-the-c-suite-to-women-oliver-wyman-identifies-four-key-barriers-to-overcome.html" class="media-center-aggregator__item media-center-aggregator__item--press-release">
+                                    <span class="media-center-aggregator__item--press-release__category">Press Release</span>
+                                    <h3 class="media-center-aggregator__item--press-release__title">Opening the C-Suite to Women: Oliver Wyman Identifies Four Key Barriers to Overcome</h3>
+                                    <p class="media-center-aggregator__emp-text"></p>
+                                    <span class="media-center-aggregator__item__date">Jan 12, 2021</span>
+                                </a>
+                            </li>
+
+                            <li class="three--columns js-stacked-item">
+                                <a href="media-center/2021/jan/oliver-wyman-announces-actuarial-partner-and-principal-promotion.html" class="media-center-aggregator__item media-center-aggregator__item--press-release">
+                                    <span class="media-center-aggregator__item--press-release__category">Press Release</span>
+                                    <h3 class="media-center-aggregator__item--press-release__title">Oliver Wyman announces Actuarial Partner and Principal Promotions for 2021</h3>
+                                    <p class="media-center-aggregator__emp-text"></p>
+                                    <span class="media-center-aggregator__item__date">Jan 6, 2021</span>
+                                </a>
+                            </li>
+
+                            <li class="three--columns js-stacked-item">
+                                <a href="media-center/2021/jan/bloomberg-daniel-tannebaum-on-what-a-biden-administration-means-for-us-china-relations.html" class="media-center-aggregator__item media-center-aggregator__item--no-image">
+                                    <div class="tag-wrapper">
+                                        <span class="media-center-aggregator__item__tag tag--in-the-news">In the News</span>
+                                    </div>
+                                    <h3 class="media-center-aggregator__title">Bloomberg TV: Biden Has to Deal With Cards Dealt on China: Daniel Tannebaum</h3>
+                                    <span class="media-center-aggregator__item__date">Jan 5, 2021</span>
+                                </a>
+                            </li>
+
+
+                            <li class="three--columns js-stacked-item">
+                                <a href="our-expertise/insights/2021/jan/born-in-the-pandemic-digital-health.html.html" class="media-center-aggregator__item">
+                                    <img src="~/assets/content/dam/oliver-wyman/v2/banners/middle-east-insurance-review-banner.jpg.imgix.mediaSmallTile.jpg" alt="" />
+                                    <span class="media-center-aggregator__item__tag tag--thought-leadership">Authored by OW</span>
+                                    <h3 class="media-center-aggregator__title">MEIR: Born In The Pandemic – Digital Health</h3>
+                                    <span class="media-center-aggregator__item__date">Jan 3, 2021</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="pagination pagination--bordered">
+                        <div class="pagination__archive-links">
+                            <ul>
+                                <li class="active"><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2021</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2020</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2019</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2018</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2017</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2016</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2015</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2014</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2013</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2012</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2011</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2010</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2009</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2008</a></li>
+
+                                <li><a href="#" rel="no-follow" class="page" onclick="yearFilter(event, this)">2007</a></li>
+                            </ul>
+                        </div>
+                        <div class="pagination__inner">
+                            <a class="btn-prev hide" href="#" onclick="PreviousLoadMore(event, 16, '')">Previous</a>
+                            <ul class="pagination__top">
+
+                                <li class="active"><a class="page" href="#" onclick="PageNumberLoadMore(event, this, 16, '')">1</a></li>
+
+                            </ul>
+                            <a class="btn-next hide" href="#" onclick="NextLoadMore(event, 16, '')">Next</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <div class="container">
+                <div id="loadMoreUrl" data-url="/content/oliver-wyman/ow-v2/en/media-center/jcr:content/grid/aggregator-loadmore-par"></div>
+
+            </div>
+
+
+
+        </section>
+    </div>
+
+    <div class="text-module text-module--fullwidth">
+
+    </div>
+    <div class="text-module text-module--fullwidth">
+
+    </div>
+</div>
