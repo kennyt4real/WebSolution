@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SeunWebsite.Models;
+using SeunWeb.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
