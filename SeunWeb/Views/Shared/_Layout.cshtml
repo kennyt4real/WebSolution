@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SeunWebsite</title>
-   
+
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&amp;display=swap" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
@@ -23,6 +23,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="~/assets/css/custom.css" rel="stylesheet" type="text/css" />
+
+
+
+
 </head>
 <body class="v3">
     <div class="page">
@@ -385,6 +389,7 @@
                 </div>
             </div>
 
+
         </header>
 
         @RenderBody()
@@ -524,10 +529,21 @@
     <!--/.page-->
     <!-- JS -->
     <!--  <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script> -->
+
+    <script src="~/assets/js/custom.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="~/assets/vendor/jquery/jquery.min.js"></script>
+
+    <script src="~/assets/js/clipboard.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="~/assets/jquery/jquery.min.js"></script>
+
+    <script type="text/javascript" src="~/assets/vendor/js/utils.min.js"></script>
+
+    <script type="text/javascript" src="~/assets/vendor/js/granite.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="~/assets/jquery/jquery.js"><\/script>')
     </script>
-    <script type="text/javascript" src="~/assets/vendor/jquery/jquery.min.js"></script>
 
     <script type="text/javascript" src="~/assets/vendor/jquery/jqueryui.min.js"></script>
 
@@ -541,14 +557,6 @@
 
     <script type="text/javascript" src="~/assets/vendor/js/general-v3.min.js"></script>
 
-    <script src="~/assets/js/custom.js" type="text/javascript"></script>
-  
-    <script src="~/assets/js/clipboard.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="~/assets/jquery/jquery.min.js"></script>
-
-    <script type="text/javascript" src="~/assets/vendor/js/utils.min.js"></script>
-    <script type="text/javascript" src="~/assets/vendor/js/granite.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
