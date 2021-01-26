@@ -1,0 +1,34 @@
+<svg width="499" height="485" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="487" width="501" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_4"/>
+  <g id="svg_5"/>
+  <g id="svg_6"/>
+  <g id="svg_7"/>
+  <g id="svg_8"/>
+  <g id="svg_9"/>
+  <g id="svg_10"/>
+  <g id="svg_11"/>
+  <g id="svg_12"/>
+  <g id="svg_13"/>
+  <g id="svg_14"/>
+  <g id="svg_15"/>
+  <g id="svg_16"/>
+  <g id="svg_17"/>
+  <g id="svg_18"/>
+  <rect stroke="#000" transform="rotate(133.33763122558594 380.27111816406244,186.20068359375003) " id="svg_27" height="15" width="235.762641" y="178.700682" x="262.389801" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" transform="rotate(-132.75228881835938 121.60099029541014,186.4468078613281) " id="svg_28" height="15.166925" width="241.40394" y="178.863335" x="0.899013" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" transform="rotate(89.99124145507812 199.68539428710946,341.77099609374994) " id="svg_30" height="15" width="142.764554" y="334.270988" x="128.303126" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" transform="rotate(89.99124145507812 301.6653137207032,369.4226989746093) " id="svg_31" height="15" width="205.474283" y="361.922719" x="198.928191" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" transform="rotate(29.822044372558594 246.97071838378932,436.3178405761718) " id="svg_32" height="15" width="117.456284" y="428.817847" x="188.242575" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" id="svg_33" height="15" width="473.886463" y="90.636055" x="13.084956" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" id="svg_36" height="15" width="469.738324" y="6.191568" x="16.047908" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" transform="rotate(89.99124145507812 19.237577438354496,55.19118499755859) " id="svg_37" height="15" width="98.416461" y="47.691187" x="-29.970653" stroke-width="0" fill="#000000"/>
+  <rect stroke="#000" transform="rotate(89.99124145507812 479.2376098632813,56.060752868652344) " id="svg_38" height="15" width="98.416461" y="48.560752" x="430.029372" stroke-width="0" fill="#000000"/>
+ </g>
+</svg>
