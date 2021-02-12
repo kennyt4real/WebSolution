@@ -37,7 +37,7 @@ namespace SeunWebsite.Controllers
             return View();
         }
 
-        public IActionResult OurCulture()
+        public IActionResult OurOrganization()
         {
             return View();
         }

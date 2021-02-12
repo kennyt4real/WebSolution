@@ -198,7 +198,7 @@
 .site-footer--new__navigation>li a{display:inline-block;color:#000}
 @media screen and (min-width:960px){.site-footer--new__navigation{display:block;margin:0;margin:0}
 }
-.site-footer--new__navigation li a{color:#06c9f4}
+.site-footer--new__navigation li a {color: #228b22}
 .site-footer--new__navigation--sub-items{display:flex}
 .site-footer--new__navigation--sub-items li:first-child{padding:0 1.5rem 0rem 1.5rem}
 .site-footer--new__social,.site-footer--new__tc{list-style-type:none;padding:0;margin:0;overflow:hidden}
@@ -236,7 +236,7 @@
 .site-footer--new__navigation li a{font-size:1.7rem;line-height:2.2rem}
 .site-footer--new .social-share-icons a svg{width:32px;height:32px;transform:translateY(.5px)}
 .site-footer--new__app--apps>a{margin-left:1rem}
-.homepage-banner{padding:10rem 0;margin-top:1rem;margin-bottom:4rem;width:100%;color:black}
+.homepage-banner{padding:10rem /*0*/;margin-top:1rem;margin-bottom:4rem;width:100%;color:black}
 .homepage-banner .hero--main--home__title,.homepage-banner .hero--main--home__title--bottom{font-size:12vw;margin:.5rem 0;padding-right:4rem;font-family:"Oswald-Bold";letter-spacing:-0.5px;line-height:.94;transform-origin:left top;transform:scale(0.9,1)}
 .homepage-banner .hero--main--home__strapline{font-size:2rem;padding-left:.4rem;padding-right:11%;font-family:"noto-sans";font-weight:400}
 .homepage-banner .btn--main.hero--main--home__cta{display:inline-block;color:white;background-color:black;font-size:1.8rem;padding:.5rem 1.3rem .7rem 1.4rem;word-wrap:break-word;margin:2rem 0;transition:background-color .3s ease}

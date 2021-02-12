@@ -68,8 +68,8 @@ font-size:3rem;
 .tag--thought-leadership,.tag--thoughtleadership{background:transparent;}
 .hero--main--combination .hero--tiled__combination__text__top {background:transparent;}
 
-.tag-wrapper--thought-leadership > .tag--thought-leadership, .tag-wrapper--thought-leadership > .tag--thoughtleadership{color:#000}
-.tag-wrapper > .tag--in-the-news{color:#000}
+.tag-wrapper--thought-leadership > .tag--thought-leadership, .tag-wrapper--thought-leadership > .tag--thoughtleadership{color:#0b6623}
+.tag-wrapper > .tag--in-the-news{color:#0b6623}
 
 .media-center-aggregator__item > .tag--thought-leadership, .tag-wrapper--thought-leadership > .tag--thoughtleadership{padding: .5rem}
 .media-center-aggregator__item > .tag--in-the-news{padding: .5rem}
@@ -89,26 +89,28 @@ font-size:3rem;
 }
 
 .asides__title--culture {
- color: #000;
+ color: #0b6623;
 }
 
 .site-header__alternative-navigation ul a:hover{
 color:#fff;
 }
 @media screen and (min-width: 768px) {
-.main-nav ul>li a:hover {color:#3172f3 !important}
-.main-nav__dropdown-1 ul li a:hover{color:#3172f3 !important}
+    .main-nav ul > li a:hover {
+        color: #228b22 !important
+    }
+.main-nav__dropdown-1 ul li a:hover{color:#000 !important}
 }
 .main-nav {
- background: #000;
+ background: #0b6623;
 }
 
 .site-header__mobile-toggle.is-on {
- background: #000 !important;
+ background: #0b6623 !important;
 }
 
 .main-nav__dropdown-1 {
-background: #252525;
+background: #228b22;
 }
 
 .main-nav__dropdown-2 {
@@ -116,7 +118,7 @@ background: #4a4a4a;
 }
 
 .search-box, .search-box--mobile {
-background: #000;
+background: #0b6623;
 }
 
 .search-box__button {
@@ -126,10 +128,10 @@ background: #3172F3;
 @media screen and (min-width: 960px) {
 .main-nav {background: none;}
 .main-nav__dropdown-1 {
-background: #000;
+background: #056608;
 }
 .main-nav__dropdown-2 {
-background: #252525;
+background: #228b22;
 }
 
 .homepage-banner .hero--main--home__strapline{
@@ -170,7 +172,7 @@ color: #3172F3;
 a:hover, .article__sidebar__links:hover{color: #3172F3}
 
 .profile-links--team a .profile-links__profile-title,.profile-links--region-team a .profile-links__profile-title, .profile-links__name, .profile-links--video__title{
-color:#000
+color:#0b6623
 }
 
 .theme--journal .profile-links--team a .profile-links__profile-title,.theme--journal .profile-links--region-team a .profile-links__profile-title, .theme--journal .profile-links__name, .theme--journal .profile-links--video__title{
@@ -191,7 +193,7 @@ color: #3172F3;
 }
 
 .btn--main, .btn--inline, .btn--load-more, .btn--read-more {
-background: #000;
+background: #0b6623;
 }
 
 .btn--main:hover, .btn--inline:hover, .btn--load-more:hover, .btn--read-more:hover, .btn--filters:hover {
@@ -199,7 +201,7 @@ background: #3172F3;
 }
 
 .btn--download {
-background: #000;
+background: #0b6623;
 }
 .btn--download:hover {
 background: #3172F3;
@@ -209,8 +211,8 @@ background: #3172F3;
 .social-share-icons.color .social__facebook,
 .social-share-icons.color .social__twitter,
 .social-share-icons.color .social__linked-in {
-color: #000;
-fill: #000;
+color: #0b6623;
+fill: #0b6623;
 }
 .social-share-icons.social-share-icons li a:hover{color:#3172F3 !important;fill:#3172F3 !important}
 
@@ -221,13 +223,13 @@ fill: #000;
 .article__highlight,
 .article__list-header,
 .text-module__header {
-color: #000;
+color: #0b6623;
 }
 
-.quote blockquote {color: #000}
+.quote blockquote {color: #0b6623}
 
 .article__row h3, .article__row--restrained h3, .impact-section__row h3, .article__row .tiles-grid__title, .article__row--restrained .tiles-grid__title, .impact-section__row .tiles-grid__title, .article__row .blog-feed__header, .article__row--restrained .blog-feed__header, .impact-section__row .blog-feed__header, .article__row .tile__title, .article__row--restrained .tile__title, .impact-section__row .tile__title, .article__row .tile--homepage__title, .article__row--restrained .tile--homepage__title, .impact-section__row .tile--homepage__title, .article__row .tiles-grid--more-events__title, .article__row--restrained .tiles-grid--more-events__title, .impact-section__row .tiles-grid--more-events__title, .article__row .hero--main__aside__header, .article__row--restrained .hero--main__aside__header, .impact-section__row .hero--main__aside__header, .article__row .article__header--light, .article__row--restrained .article__header--light, .impact-section__row .article__header--light, .article__row .article--sticky-nav__header, .article__row--restrained .article--sticky-nav__header, .impact-section__row .article--sticky-nav__header, .article__row .events-aggregator--featured__title, .article__row--restrained .events-aggregator--featured__title, .impact-section__row .events-aggregator--featured__title, .article__row .media-center-aggregator--awards__intro__title, .article__row--restrained .media-center-aggregator--awards__intro__title, .impact-section__row .media-center-aggregator--awards__intro__title {
-color: #000;
+color: #0b6623;
 }
 
 .theme--journal .article__header, .theme--journal .article__header .article__header--light, .theme--journal .article__subheader, .theme--journal .article__subheader .article__subheader--blue, .theme--journal .article__highlight, .theme--journal .article__list-header, .theme--journal .text-module__header {
@@ -250,13 +252,13 @@ color: #000;
 .article__highlight,
 .article__list-header,
 .text-module__header {
-color: #000;
+color: #0b6623;
 }
 
-.quote blockquote {color: #000}
+.quote blockquote {color: #0b6623}
 
 .article__row h3, .article__row--restrained h3, .impact-section__row h3, .article__row .tiles-grid__title, .article__row--restrained .tiles-grid__title, .impact-section__row .tiles-grid__title, .article__row .blog-feed__header, .article__row--restrained .blog-feed__header, .impact-section__row .blog-feed__header, .article__row .tile__title, .article__row--restrained .tile__title, .impact-section__row .tile__title, .article__row .tile--homepage__title, .article__row--restrained .tile--homepage__title, .impact-section__row .tile--homepage__title, .article__row .tiles-grid--more-events__title, .article__row--restrained .tiles-grid--more-events__title, .impact-section__row .tiles-grid--more-events__title, .article__row .hero--main__aside__header, .article__row--restrained .hero--main__aside__header, .impact-section__row .hero--main__aside__header, .article__row .article__header--light, .article__row--restrained .article__header--light, .impact-section__row .article__header--light, .article__row .article--sticky-nav__header, .article__row--restrained .article--sticky-nav__header, .impact-section__row .article--sticky-nav__header, .article__row .events-aggregator--featured__title, .article__row--restrained .events-aggregator--featured__title, .impact-section__row .events-aggregator--featured__title, .article__row .media-center-aggregator--awards__intro__title, .article__row--restrained .media-center-aggregator--awards__intro__title, .impact-section__row .media-center-aggregator--awards__intro__title {
-color: #000;
+color: #0b6623;
 }
 
 .hero--main__asides-group__title span {
@@ -277,7 +279,7 @@ color: #fff;
 }
 
 .media-center-aggregator__item--press-release__category {
-    color: #000;
+    color: #0b6623;
     font-family: "Oswald";
     text-transform: uppercase;
     font-weight: 500;
@@ -292,7 +294,7 @@ color: #fff;
 }
 
 .btn--apply {
-    background: #000;
+    background: #0b6623;
 }
 .btn--apply:hover {
 	background:#3172F3;
@@ -301,7 +303,7 @@ color: #fff;
 
 
 .site-header__alternative-navigation ul>li a:hover {
-color:#3172F3;
+color:#000;
 }
 .button {
 
@@ -331,7 +333,7 @@ fill: #fff;
 
 .sidebar-locations a {
     color: #fff !important;
-    background: #000;
+    background: #0b6623;
 }
 
 .sidebar-locations a:after:hover{background:#fff}
@@ -349,11 +351,11 @@ display:none;
 
 */
 .focus-areas-tiles__overlay {
-    background-color: #000;
+    background-color: #0b6623;
 }
 
 .tile.tile--no-image .tile__tag {
-    color: #000;
+    color: #0b6623;
 }
 
 .tile__overflow {
@@ -401,10 +403,10 @@ width: 100%;
 .tile.is-active .tile__overlay,.is-active.tile--no-image .tile__overlay,.is-active.tile--homepage .tile__overlay,.is-active.tile--homepage--no-image .tile__overlay,.tile.is-active .tile--homepage__overlay,.is-active.tile--no-image .tile--homepage__overlay,.is-active.tile--homepage .tile--homepage__overlay,.is-active.tile--homepage--no-image .tile--homepage__overlay,.tile--no-image .tile__overlay,.tile--no-image .tile--homepage__overlay{opacity:1;filter:alpha(opacity=70)}
 
 
-.homepage-banner {padding-bottom: 0;}
+/*.homepage-banner {padding-bottom: 0;}*/
 .homepage-banner .hero--main--home__title {margin-bottom: 0;}
 .hero--main--home__title--bottom {margin-top:0;}
-.hero--main--home__title--bottom {color:#06c9f4;}
+.hero--main--home__title--bottom {color:#228b22;}
 
 @media screen and (max-width: 768px){
 .tiles-grid--homepage--new .hptRow2Elements:last-of-type .grid--item:last-of-type img {object-position:58%}

@@ -2,10 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div>
-    <div id="js-hero"></div>
-    <div class="container">
-        <div class="homepage-banner">
+@*<section class="hero--main hero--main--centered hero__liquid imgLiquid_bgSize imgLiquid_ready cq-dd-image" id="js-hero" style="background-image: url(); background-size: cover; background-position: center center; background-repeat: no-repeat; opacity: 1;">
+        <div class="hero--main__overlay"></div>
+        <div>
+            <div class="homepage-hero-module">
+                <div class="video-container">
+
+                    <div class="poster hidden">
+                        <img style="display: none;" alt="" src="~/assets/green-background.jpeg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero--main__content">
             <div class="hero--main--home__title">
                 ACCELERATE
             </div>
@@ -13,8 +22,25 @@
             <div class="hero--main--home__title--bottom">
                 BREAKTHROUGHS
             </div>
+        </div>
+        <div class="hero--main__asides-group" style="opacity: 1;">
 
         </div>
+    </section>*@
+
+<div class="" style="background-image: url('assets/su-san-lee-E_eWwM29wfU-unsplash.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 1;">
+    <div class="homepage-banner">
+        <div class="hero--main--home__title">
+            ACCELERATE
+        </div>
+
+        <div class="hero--main--home__title--bottom">
+            BREAKTHROUGHS
+        </div>
+
     </div>
 </div>
 
@@ -44,8 +70,8 @@
                                 <a href="#"><img src="~/assets/images/ellipsis.svg" alt="ellipsis" /></a>
                             </div>
                             <div class="header__ellipsis__button--hover">
-                                <a href="our-expertise/insights.html" class="btn--main header__ellipsis__cta desktop">More Insights</a>
-                                <a href="our-expertise/insights.html" class="btn--main header__ellipsis__cta mobile">+</a>
+                                <a href="#" class="btn--main header__ellipsis__cta desktop">More Insights</a>
+                                <a href="#" class="btn--main header__ellipsis__cta mobile">+</a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +163,7 @@
                                         <h1 class="m-0 text-primary text-primary--tile-text__small tile-title white">Implementation Of Sustainable Development Goals</h1>
                                         <p class="text-secondary text-secondary--hover-state-description white">Addressing the data disaggregation challenge in the GCC</p>
                                         <h1 class="m-0 text-primary text-primary--tile-text__small tile-title white"></h1>
-                                        <a href="our-expertise/insights/2021/jan/implementation-of-sustainable-development-goals.html" class="btn btn--main grid--item__cta text-secondary text-secondary--description__medium">Read more</a>
+                                        <a href="#" class="btn btn--main grid--item__cta text-secondary text-secondary--description__medium">Read more</a>
                                     </div>
 
 
@@ -439,21 +465,21 @@
 
 
             <script>
-                        /**
-                               var img =  $(".tiles-grid--homepage--new .grid--item img").last().attr("src");
-                        $( window ).resize(function() {
-                        var mq = window.matchMedia( "(min-width: 570px)" );
-                        if (mq.matches) {
+                /**
+                       var img =  $(".tiles-grid--homepage--new .grid--item img").last().attr("src");
+                $( window ).resize(function() {
+                var mq = window.matchMedia( "(min-width: 570px)" );
+                if (mq.matches) {
 
-                           img = img.replace(".imgixg.featuredTile.jpg","");
-                         $(".tiles-grid--homepage--new .grid--item img").last().attr("src", img);
-                        } else {
-                         if (img.includes(".imgixg.featuredTile.jpg")==false){
-                        $(".tiles-grid--homepage--new .grid--item img").last().attr("src", img+".imgixg.featuredTile.jpg")
-                        }
-                        }
-                        }).resize();
-                        **/
+                   img = img.replace(".imgixg.featuredTile.jpg","");
+                 $(".tiles-grid--homepage--new .grid--item img").last().attr("src", img);
+                } else {
+                 if (img.includes(".imgixg.featuredTile.jpg")==false){
+                $(".tiles-grid--homepage--new .grid--item img").last().attr("src", img+".imgixg.featuredTile.jpg")
+                }
+                }
+                }).resize();
+                **/
             </script>
         </div>
         <div class="custom-widget section">

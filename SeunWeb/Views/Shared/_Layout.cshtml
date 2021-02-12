@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-    <title>@ViewData["Title"] - SeunWebsite</title>
+    <title>@ViewData["Title"] - Brice&Quade</title>
 
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&amp;display=swap" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="~/assets/css/lki2bnf.css" />
 
-    <link rel="shortcut icon" href="~/assets/designs/favicon.ico" />
+    <link rel="shortcut icon" href="~/assets/bqlogocrop.jpeg" />
 
     <link rel="stylesheet" href="~/assets/vendor/css/ow-v2.min.css" type="text/css">
     <link rel="stylesheet" href="~/assets/vendor/css/generic.min.css" type="text/css">
@@ -31,7 +31,7 @@
 <body class="v3">
     <div class="page">
         <header class="site-header js-site-header ">
-            <div class="site-header__top">
+            <div class="site-header__top" style="background-color:#0b6623">
                 <div class="container">
                     <nav class="site-header__alternative-navigation">
                         <ul>
@@ -55,7 +55,7 @@
                 <div class="container">
                     <div class="site-header__branding">
                         <a asp-action="Index">
-                            <img src="~/assets/bqlogocrop.jpeg" alt="Brice &amp; Quade" class="site-header__logo" />
+                            <img src="~/assets/bqlogocrop.jpeg" alt="Brice and Quade" class="site-header__logo" />
                         </a>
                     </div>
                     <nav class="main-nav js-main-nav ">
@@ -63,7 +63,7 @@
 
                             <li class="site-nav__list__item">
 
-                                <a asp-action="OurCulture" class="js-has-children">Our Culture</a>
+                                <a asp-action="OurOrganization" class="js-has-children">Our Organization</a>
                                 <div class="main-nav__child main-nav__dropdown-1">
                                     <div class="main-nav__inner">
                                         <ul class="site-nav__list">
@@ -76,96 +76,105 @@
                                                 </div>
                                             </li>
 
-                                            <li class="site-nav__list__item">
-                                                <a asp-action="OurValues" class="js-has-children">Our Values</a>
+                                            @*<li class="site-nav__list__item">
+                                                    <a asp-action="OurValues" class="js-has-children">Our Values</a>
 
-                                                <div class="main-nav__child main-nav__dropdown-2">
-                                                    <div class="main-nav__inner">
-                                                        <ul class="site-nav__list">
-                                                            <li class="site-nav__list__item">
-                                                                <a asp-action="OurHistory">Our History</a>
-                                                            </li>
+                                                    <div class="main-nav__child main-nav__dropdown-2">
+                                                        <div class="main-nav__inner">
+                                                            <ul class="site-nav__list">
+                                                                <li class="site-nav__list__item">
+                                                                    <a asp-action="OurHistory">Our History</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Strategic Partners</a>
-                                                            </li>
-                                                        </ul>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Strategic Partners</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
+                                                </li>*@
+
+                                            <li class="site-nav__list__item">
+
+                                                <a href="#" class="">Our Values</a>
+                                                <div class="main-nav__child main-nav__dropdown-2">
+
                                                 </div>
                                             </li>
 
-                                            <li class="site-nav__list__item">
-                                                <a asp-action="OurImpact" class="js-has-children">Our Impact</a>
 
-                                                <div class="main-nav__child main-nav__dropdown-2">
-                                                    <div class="main-nav__inner">
-                                                        <ul class="site-nav__list">
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Recognition &amp; Accolades</a>
-                                                            </li>
-                                                        </ul>
+                                            @*<li class="site-nav__list__item">
+                                                    <a asp-action="OurImpact" class="js-has-children">Our Impact</a>
+
+                                                    <div class="main-nav__child main-nav__dropdown-2">
+                                                        <div class="main-nav__inner">
+                                                            <ul class="site-nav__list">
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Recognition &amp; Accolades</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>*@
 
                                             <li class="site-nav__list__item">
 
-                                                <a asp-action="Alumni" class="">Alumni</a>
+                                                <a href="#" class="">Our Impact</a>
                                                 <div class="main-nav__child main-nav__dropdown-2">
 
                                                 </div>
                                             </li>
 
 
-                                            <li class="site-nav__list__item">
-                                                <a asp-action="InclusionDiversity" class="js-has-children">Inclusion &amp; Diversity</a>
+                                            @*<li class="site-nav__list__item">
+                                                    <a asp-action="InclusionDiversity" class="js-has-children">Inclusion &amp; Diversity</a>
 
-                                                <div class="main-nav__child main-nav__dropdown-2">
-                                                    <div class="main-nav__inner">
-                                                        <ul class="site-nav__list">
-                                                            <li class="site-nav__list__item">
-                                                                <a asp-action="MissionInclude">MissionINCLUDE</a>
-                                                            </li>
+                                                    <div class="main-nav__child main-nav__dropdown-2">
+                                                        <div class="main-nav__inner">
+                                                            <ul class="site-nav__list">
+                                                                <li class="site-nav__list__item">
+                                                                    <a asp-action="MissionInclude">MissionINCLUDE</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a asp-action="UkGenderPayGapReport">2018 UK Gender Pay Gap Report</a>
-                                                            </li>
+                                                                <li class="site-nav__list__item">
+                                                                    <a asp-action="UkGenderPayGapReport">2018 UK Gender Pay Gap Report</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Women At Brice &amp; Quade (WOW)</a>
-                                                            </li>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Women At Brice &amp; Quade (WOW)</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Employees Of Brice &amp; Quade Enabling Racial &amp; Ethnic Diversity (EMPOWERED)</a>
-                                                            </li>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Employees Of Brice &amp; Quade Enabling Racial &amp; Ethnic Diversity (EMPOWERED)</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">LGBT+ And Allies At Brice &amp; Quade</a>
-                                                            </li>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">LGBT+ And Allies At Brice &amp; Quade</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Veterans Of Brice &amp; Quade (VOW)</a>
-                                                            </li>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Veterans Of Brice &amp; Quade (VOW)</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Family Life At Brice &amp; Quade (FLOW)</a>
-                                                            </li>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Family Life At Brice &amp; Quade (FLOW)</a>
+                                                                </li>
 
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Introversion At Brice &amp; Quade</a>
-                                                            </li>
-                                                        </ul>
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Introversion At Brice &amp; Quade</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>*@
 
-                                            <li class="site-nav__list__item">
+                                            @*<li class="site-nav__list__item">
 
-                                                <a href="#" class="">Brice &amp; Quade For Society</a>
-                                                <div class="main-nav__child main-nav__dropdown-2">
+                                                    <a href="#" class="">Brice &amp; Quade For Society</a>
+                                                    <div class="main-nav__child main-nav__dropdown-2">
 
-                                                </div>
-                                            </li>
+                                                    </div>
+                                                </li>*@
 
 
                                             <li class="site-nav__list__item">
@@ -195,19 +204,11 @@
                                                     <div class="main-nav__inner">
                                                         <ul class="site-nav__list">
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Automotive</a>
+                                                                <a href="#">Agriculture</a>
                                                             </li>
 
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Business Services</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Communications, Media, And Technology</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Education</a>
+                                                                <a href="#">Automotive &amp; Assembly</a>
                                                             </li>
 
                                                             <li class="site-nav__list__item">
@@ -215,27 +216,72 @@
                                                             </li>
 
                                                             <li class="site-nav__list__item">
+                                                                <a href="#">Electric Power &amp; Natural Gas</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Oil &amp; Gas</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Business Services</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Manufacturing</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Healthcare</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Education</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Extractives &amp; Commodities</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
                                                                 <a href="#">Financial Services</a>
                                                             </li>
-
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Health And Life Sciences</a>
+                                                                <a href="#">Public Sector</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Public Policy</a>
                                                             </li>
 
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Industrial Products</a>
+                                                                <a href="#">Consruction Engineering &amp; Building Materials</a>
                                                             </li>
-
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Public Sector And Policy</a>
+                                                                <a href="#">Communications &amp; Media</a>
                                                             </li>
-
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Retail And Consumer Goods</a>
+                                                                <a href="#">Entertainment</a>
                                                             </li>
-
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Transportation</a>
+                                                                <a href="#">Tourism</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Arts &amp; Culture</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Transportation: Travel, Logistics &amp; Infrastructure</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Technology</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Retail &amp; Consumer goods</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Markets</a>
+                                                            </li>
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Real Estate</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -244,21 +290,29 @@
 
 
                                             <li class="site-nav__list__item">
-                                                <a href="#" class="js-has-children">Capabilities</a>
+                                                <a href="#" class="js-has-children">Our Capabilities</a>
 
                                                 <div class="main-nav__child main-nav__dropdown-2">
                                                     <div class="main-nav__inner">
                                                         <ul class="site-nav__list">
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Actuarial</a>
+                                                                <a href="#">Risk analysis &amp; management</a>
                                                             </li>
 
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Climate And Sustainability</a>
+                                                                <a href="#">Organizational effectiveness</a>
                                                             </li>
 
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Corporate Finance And Restructuring</a>
+                                                                <a href="#">Communications strategy</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Policy communications</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Marketing &amp; Advertising</a>
                                                             </li>
 
                                                             <li class="site-nav__list__item">
@@ -266,32 +320,24 @@
                                                             </li>
 
                                                             <li class="site-nav__list__item">
-                                                                <a href="#">Lippincott: Brand &amp; Innovation</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Operations</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Organizational Effectiveness</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Payments</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Pricing, Sales, And Marketing</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
-                                                                <a href="#">Risk Management</a>
-                                                            </li>
-
-                                                            <li class="site-nav__list__item">
                                                                 <a href="#">Strategy</a>
                                                             </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Clusters Analysis</a>
+                                                            </li>
+
+                                                            @*<li class="site-nav__list__item">
+                                                                    <a href="#">Pricing, Sales, And Marketing</a>
+                                                                </li>
+
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Risk Management</a>
+                                                                </li>
+
+                                                                <li class="site-nav__list__item">
+                                                                    <a href="#">Strategy</a>
+                                                                </li>*@
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -299,21 +345,46 @@
 
 
                                             <li class="site-nav__list__item">
-
-                                                <a href="#" class="">Insights</a>
+                                                <a asp-action="InclusionDiversity" class="js-has-children">Insight</a>
                                                 <div class="main-nav__child main-nav__dropdown-2">
+                                                    <div class="main-nav__inner">
+                                                        <ul class="site-nav__list">
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">The COVID Pandemic &amp; Africa</a>
+                                                            </li>
 
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Transforming African Education</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Africa Catching-up</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">The Future of Nigeria</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">The Future of Africa</a>
+                                                            </li>
+
+                                                            <li class="site-nav__list__item">
+                                                                <a href="#">Africa: Jobs of the Future</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </li>
 
 
-                                            <li class="site-nav__list__item">
+                                            @*<li class="site-nav__list__item">
 
-                                                <a href="#" class="">Global Locations</a>
-                                                <div class="main-nav__child main-nav__dropdown-2">
+                                                    <a href="#" class="">Global Locations</a>
+                                                    <div class="main-nav__child main-nav__dropdown-2">
 
-                                                </div>
-                                            </li>
+                                                    </div>
+                                                </li>*@
 
 
                                             <li class="site-nav__list__item">
@@ -324,13 +395,13 @@
                                                 </div>
                                             </li>
 
-                                            <li class="site-nav__list__item">
+                                            @*<li class="site-nav__list__item">
 
-                                                <a href="#" class="">Hubs</a>
-                                                <div class="main-nav__child main-nav__dropdown-2">
+                                                    <a href="#" class="">Hubs</a>
+                                                    <div class="main-nav__child main-nav__dropdown-2">
 
-                                                </div>
-                                            </li>
+                                                    </div>
+                                                </li>*@
                                         </ul>
                                     </div>
                                 </div>
@@ -339,7 +410,7 @@
 
                             <li class="site-nav__list__item">
 
-                                <a asp-action="Careers" class="js-has-children">Careers</a>
+                                <a href="#" class="js-has-children">Careers</a>
                                 <div class="main-nav__child main-nav__dropdown-1">
                                     <div class="main-nav__inner">
                                         <ul class="site-nav__list">
@@ -377,7 +448,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="search-box">
+            @*<div class="search-box">
                 <div class="search-box__inner">
                     <form action="#" method="GET">
                         <fieldset>
@@ -386,7 +457,7 @@
                         </fieldset>
                     </form>
                 </div>
-            </div>
+            </div>*@
 
 
         </header>
@@ -395,25 +466,25 @@
 
         <div class="mt-40">
             <div>
-                <div class="careers-footer" style="background-color:#FFBE00;">
+                <div class="careers-footer" style="background-color:#0b6623;">
                     <div class="container">
-                        @*<div class="left">
-                            <div class="internal-left">
-                                <div class="image">
-                                    <a class="no-decoration" href="#"><img src="~/assets/images/fortune-100.png" /></a>
+                        <div class="left">
+                                <div class="internal-left">
+                                    <div class="image">
+                                        <a class="no-decoration" href="#"><img src="~/assets/images/fortune-100.png" /></a>
+                                    </div>
+                                    <p>
+                                        <a class="no-decoration" href="#">We are one of the FORTUNE 100 best companies in the world to work for</a>
+                                    </p>
                                 </div>
-                                <p>
-                                    <a class="no-decoration" href="#">We are one of the FORTUNE 100 best companies in the world to work for</a>
-                                </p>
                             </div>
-                        </div>
-                        <div class="right">
+                            <div class="right">
 
-                            <div class="link-container">
-                                <a class="link" href="#">Students And Recent Graduates Application</a>
+                                <div class="link-container">
+                                    <a class="link" href="#">Students And Recent Graduates Application</a>
+                                </div>
+
                             </div>
-
-                        </div>*@
                     </div>
                 </div>
             </div>
@@ -471,7 +542,7 @@
                             <div class="grid">
                                 <div class="seven--columns-tablet-one-column section">
                                     <ul class="site-footer--new__navigation">
-                                        <li><a target="_blank" class="selected" href="#">Brice &amp; Quade Companies</a></li>
+                                        <li><a target="_blank" class="selected" href="#">Brice &amp; Quade</a></li>
                                         <div class="site-footer--new__navigation--sub-items">
                                             <li><a target="_blank" href="#">Marsh</a></li>
                                             <li><a target="_blank" href="#">Mercer</a></li>
@@ -502,15 +573,15 @@
                                 <div class="nine--columns-tablet-one-column">
                                     <div class="site-footer--new__app">
                                         @*<div class="site-footer--new__app--text">
-                                            <p><span>Download Brice &amp; Quade Ideas App</span><br /> Our latest insights on your mobile device</p>
-                                        </div>*@
+                                                <p><span>Download Brice &amp; Quade Ideas App</span><br /> Our latest insights on your mobile device</p>
+                                            </div>*@
                                         @*<div class="site-footer--new__app--apps">
 
-                                            <a target="_blank" href="#"> <img class="app-badge" src="~/assets/images/appstore-badge.png" alt="" /></a>
+                                                <a target="_blank" href="#"> <img class="app-badge" src="~/assets/images/appstore-badge.png" alt="" /></a>
 
 
-                                            <a target="_blank" href="#"> <img class="app-badge" src="~/assets/images/google-play-badge.png" alt="" /></a>
-                                        </div>*@
+                                                <a target="_blank" href="#"> <img class="app-badge" src="~/assets/images/google-play-badge.png" alt="" /></a>
+                                            </div>*@
                                     </div>
                                 </div>
                                 <div class="three--columns copyright hidden">
